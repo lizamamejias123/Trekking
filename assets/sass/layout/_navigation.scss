@@ -1,0 +1,41 @@
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $white;
+}
+
+.navegation__left,
+.navegation__right,
+.navegation__right-button,
+.navegation__logo {
+  float: left;
+  color: $onyx;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navegation {
+  padding: 2% 10%;
+  background-color: $white;
+}
+
+.navegation__right-button {
+  float: right !important;
+
+}
+
+.navegation__right {
+  float: right !important;
+  background-color: $ball-blue;
+  color: $white !important;
+  padding: 5px 8px;
+  margin-top: 9px;
+}
+
+.navegation__right-small {
+  float: right;
+  color: black;
+}

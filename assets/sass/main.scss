@@ -1,0 +1,35 @@
+@import 'vendors/node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'base/typography';
+@import 'base/base';
+@import 'base/reset';
+
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/media';
+@import 'components/cover';
+@import 'components/dropdown';
+@import 'components/thumbnails';
+
+@import 'layout/main-section';
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'pages/home';
+@import 'pages/contact';
+
+@import 'themes/theme';
+@import 'themes/admin';
+
+@import 'vendors/jquery-ui';
+@import 'vendors/normalize';
+@import 'vendors/select2';

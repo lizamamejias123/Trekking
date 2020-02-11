@@ -1,0 +1,62 @@
+.grafico__back {
+    width: 100%;
+}
+
+.grafico {
+    padding: 0 10%;
+}
+
+.grafico__titulo {
+    text-align: center;
+    font-family: $raleway;
+    font-weight: $bold;
+}
+
+.grafico__text__titulo {
+    font-family: $raleway;
+    font-weight: $bold;
+}
+
+
+.precios__card {
+background-color: $white;
+    display: inline-block;
+    
+}
+
+.precios {
+    background-color: $onyx;
+    
+}
+
+.precios__card__titulo {
+    font-family: $open-sans;
+}
+
+.precios__card__subtitulo {
+    font-family: $raleway;
+    font-weight: $bold;
+}
+
+.precios__card__lista {
+    font-family: $open-sans
+}
+
+.precios__titulo {
+    color: $white;
+    text-align: center;
+    margin: 0;
+    background-color: $onyx;
+}
+
+.precios__hr__primero{
+    border: 0.8px solid $silver-chalice;
+    
+}
+
+.precios__hr__segundo{
+    border: 0.8px solid $silver-chalice;
+    margin-top: 186px
+}
+
+
