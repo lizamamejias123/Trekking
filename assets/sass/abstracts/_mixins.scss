@@ -68,6 +68,11 @@
         padding: 0 32px;
         ;
     }
+    .animation{display: none;}
+
+    .footer__lista__individual {
+        padding: 4px 0px;
+    }
 }
 
 @media (min-width:401px) and (max-width: 900px) {
@@ -136,7 +141,7 @@
     .precios__card__subtitulo {
         font-size: $xx-large;
     }
-
+.animation{display: none;}
 
 
 }
@@ -242,37 +247,41 @@
         padding: 0 32px;
         ;
     }
-}
+    .animation {
 
-
-
-
-
-
-.animation {
-
-    position: absolute;
-    animation: mymove 10s infinite;
-    float: right;
-    margin: 230px 0;
-    z-index: -2;
-    width: 150px;
-}
-
-@keyframes mymove {
-    0% {
-        top: 0px;
-        right: 0px;
-       
+        position: absolute;
+        animation: mymove 10s infinite;
+        float: right;
+        margin: 230px 0;
+        z-index: -2;
+        width: 150px;
     }
 
-    50% {
-        top: 0px;
-        right: 500px;
+    .footer__lista__individual {
+        padding: 26px 14px;
     }
-
-    100% {
-        top: 0px;
-        right: 0px;
+    
+    @keyframes mymove {
+        0% {
+            top: 0px;
+            right: 0px;
+           
+        }
+    
+        50% {
+            top: 0px;
+            right: 500px;
+        }
+    
+        100% {
+            top: 0px;
+            right: 0px;
+        }
     }
 }
+
+
+
+
+
+

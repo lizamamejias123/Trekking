@@ -9947,6 +9947,14 @@ h3 {
     font-size: 16px;
     padding: 0 32px;
   }
+
+  .animation {
+    display: none;
+  }
+
+  .footer__lista__individual {
+    padding: 4px 0px;
+  }
 }
 @media (min-width: 401px) and (max-width: 900px) {
   .header__texto__titulo {
@@ -10008,6 +10016,10 @@ h3 {
 
   .precios__card__subtitulo {
     font-size: 35px;
+  }
+
+  .animation {
+    display: none;
   }
 }
 @media (min-width: 901px) and (max-width: 2000px) {
@@ -10105,28 +10117,33 @@ h3 {
     font-size: 16px;
     padding: 0 32px;
   }
-}
-.animation {
-  position: absolute;
-  animation: mymove 10s infinite;
-  float: right;
-  margin: 230px 0;
-  z-index: -2;
-  width: 150px;
-}
 
-@keyframes mymove {
-  0% {
-    top: 0px;
-    right: 0px;
+  .animation {
+    position: absolute;
+    animation: mymove 10s infinite;
+    float: right;
+    margin: 230px 0;
+    z-index: -2;
+    width: 150px;
   }
-  50% {
-    top: 0px;
-    right: 500px;
+
+  .footer__lista__individual {
+    padding: 26px 14px;
   }
-  100% {
-    top: 0px;
-    right: 0px;
+
+  @keyframes mymove {
+    0% {
+      top: 0px;
+      right: 0px;
+    }
+    50% {
+      top: 0px;
+      right: 500px;
+    }
+    100% {
+      top: 0px;
+      right: 0px;
+    }
   }
 }
 .precios__card__boton {
@@ -10249,7 +10266,11 @@ ul {
 
 .footer__lista {
   color: #aeacaf;
-  margin: 0 10%;
+  padding: 0 10%;
+  background-color: #221d23;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
 .footer {

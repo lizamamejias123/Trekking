@@ -1,10 +1,14 @@
-.footer__lista{color: $silver-chalice;
-margin: 0 10%;}
+.footer__lista {
+    color: $silver-chalice;
+    padding: 0 10%;
+    background-color: $raisin-black;
+   list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
 
-.footer{
+
+.footer {
     background-color: $raisin-black;
 }
 
-.footer__lista__individual{
-    
-}
